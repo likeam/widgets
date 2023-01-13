@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Accordion from "./Accordion";
+
+
+
+const items = [
+  {
+    title: 'What is React ?',
+    content: 'Reat is forntend javascript framework'
+  },
+
+  {
+    title: 'What is benifit of Rect over normal JavaScript ?',
+    content: 'Reat is very fast and small in size'
+  },
+
+  {
+    title: 'What is React demand ?',
+    content: 'Reat is in demand  language framework'
+  }
+]
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return ( <div>
+
+      <Accordion items={items} />
     </div>
   );
 }
