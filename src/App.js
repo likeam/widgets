@@ -23,7 +23,6 @@ const items = [
 function App() {
   return ( <div>
       <Search />
-      
     </div>
   );
 }
