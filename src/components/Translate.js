@@ -8,34 +8,23 @@ import Dropdown from './Dropdown';
 const options = [
   {
     label: 'Arabic',
-    value: 'ar'
+    value: 'ar',
   },
   {
   label: 'Urdu',
   value: 'ur', 
   },
   {
-    label: 'Franch',
-    value: 'fr', 
-  },
-  {
     label: 'English',
     value: 'en', 
-  },
-  {
-    label: 'Hindi',
-    value: 'hi', 
-  },
-  {
-    label: 'Spanish',
-    value: 'sp', 
-    }
+  }
 ];
+
 
 
 const Translate = () => {
 
-  const [language, setLanguage] = useState(options[3]);
+  const [language, setLanguage] = useState(options[0]);
   const [text, setText] = useState('');
 
   return (

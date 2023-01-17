@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import Dropdown from './Dropdown';
-import List from './List';
 import Translate from './Translate';
 
 const Accordion = ({items}) => {
@@ -27,7 +26,6 @@ const Accordion = ({items}) => {
         });
 
     return (<div>
-            <List />
             <Dropdown />
             <Translate />
             <div className="ui styled accordion">
