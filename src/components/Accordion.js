@@ -26,8 +26,6 @@ const Accordion = ({items}) => {
         });
 
     return (<div>
-            <Dropdown />
-            <Translate />
             <div className="ui styled accordion">
                 {renderItems}
             </div>
